@@ -39,7 +39,7 @@ def desenho(vidas):
     return draw
 
 def escpalavra():
-    palavras = ["cavalo", 'pampa', 'aeronautica', 'comunista', "praia", 'marijuana', "computador", "montanha", "viagem", "sorriso", "felicidade", "amizade", "livro", "aventura", 'rajeh', 'macumba', 'pinto', 'windows', 'python', 'laranja', 'ornintorrinco', 'cu', 'horas', 'sessenta', 'seissentos', 'palindromo', 'teste um arroba', 'socorram-me subi em um onibus em marrocos', 'funcional', 'macaco', 'gambiarra', 'homossexualidade', 'astronauta', 'feminista', 'monitor', 'obrigado por jogar!']
+    palavras = ["cavalo", 'pampa', 'aeronautica', 'comunista', "praia", 'marijuana', "computador", "montanha", "viagem", "sorriso", "felicidade", "amizade", "livro", "aventura", 'rajeh', 'macumba', 'windows', 'python', 'laranja', 'ornintorrinco', 'horas', 'sessenta', 'seissentos', 'palindromo', 'teste um arroba', 'socorram-me subi em um onibus em marrocos', 'funcional', 'macaco', 'gambiarra', 'homossexualidade', 'astronauta', 'feminista', 'monitor', 'obrigado por jogar!']
     return random.choice(palavras)
 
 def print_letras(palavra, tent):
